@@ -1,0 +1,30 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+.root, 
+#root,
+#docs-root {
+    --primary: #367ee9;
+    --secondary: #a0aec0;
+    --accent: #718096;
+    --background: #fff;
+    --main: #0d0106;
+    --header: #2d3748;
+    --sidebar: rgba(0,0,0);
+    --sidebar-2: rgba(0,0,255, 0.8);
+    --sidebar-3: rgba(72, 72, 240, 0.6);
+    --text-color: rgba(255,255,255);
+}

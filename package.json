@@ -1,0 +1,48 @@
+{
+  "name": "md_next.js_github-api",
+  "version": "1.0.0",
+  "description": "Project dynamically creates a Table of Contents App based on github repo and structure",
+  "main": "_app.jsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlovejo2/MD_Next.js_Github-Api.git"
+  },
+  "author": "James Lovejoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlovejo2/MD_Next.js_Github-Api/issues"
+  },
+  "homepage": "https://github.com/jlovejo2/MD_Next.js_Github-Api#readme",
+  "dependencies": {
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/react": "^2.0.0-rc.2",
+    "@next/mdx": "^11.1.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.25.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^4.0.5",
+    "next": "11.1.2",
+    "next-mdx-remote": "^3.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "remark": "^14.0.1",
+    "remark-html": "^14.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-next": "^0.0.0",
+    "postcss": "^8.3.8",
+    "prettier": "2.5.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
